@@ -1,6 +1,8 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
+// This is where we define all client-side assets that are being used in the application
+
 namespace Vidly
 {
     public class BundleConfig
@@ -23,7 +25,7 @@ namespace Vidly
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap-lumen.css",
                       "~/Content/site.css"));
         }
     }
